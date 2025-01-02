@@ -4,7 +4,7 @@ from rest_framework import status
 from .models import Post
 from .serializers import PostSerializer
 
-
+# Function-Based Views
 # Get all posts
 @api_view(['GET'])
 def get_posts(request):
