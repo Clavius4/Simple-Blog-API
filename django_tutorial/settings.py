@@ -41,12 +41,14 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'posts',
     'comments',
-    'graphene_django'
+    'graphene_django',
+    'authors',
+    'categories'
 ]
 
 # GraphQL Configuration
 GRAPHENE = {
-    'SCHEMA': 'simple_blog_api.schema.schema',  # Path to your schema
+    'SCHEMA': 'simple_blog_api.schema.schema',
 }
 
 MIDDLEWARE = [
